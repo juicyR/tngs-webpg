@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+.box1 {
+	background-color: red;
+}
+.box2 {
+	background-color: blue;
+}
+.box3 {
+	background-color: #00FF00;
+}
+.box4 {
+	background-color: blue;
+}
+.box5 {
+	background-color: grey;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 650px;
+}
+main {
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr 350px 1fr 1fr;
+	grid-template-columns: 1fr 300px 1fr 1fr;
+	grid-template-areas:  
+	"box1 box1 box1 box1"
+	"box2 box3 box3 box4"
+	"box2 box3 box3 box4"
+	"box5 box5 box5 box5";
+}
+.box1 {
+	grid-area: box1;
+}
+.box2 {
+	grid-area: box2;
+}
+.box3 {
+	grid-area: box3;
+}
+.box4 {
+	grid-area: box4;
+}
+.box5 {
+	grid-area: box5;
+}

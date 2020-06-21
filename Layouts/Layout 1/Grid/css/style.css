@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+}
+.box1 {
+	background-color: red;
+}
+.box2 {
+	background-color: blue;
+}
+.box3 {
+	background-color: #00FF00;
+}
+.box4 {
+	background-color: grey;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 600px;
+}
+main {
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr 405px 1fr 1fr;
+	grid-template-columns: 190px 200px 200px 1fr;
+	grid-template-areas: 
+	"box1 box1 box1 box1"
+	"box2 box3 box3 box3"
+	"box2 box3 box3 box3"
+	"box4 box4 box4 box4"; 
+}
+.box1 {
+	grid-area: box1;
+}
+.box2 {
+	grid-area: box2;
+}
+.box3 {
+	grid-area: box3;
+}
+.box4 {
+	grid-area: box4;
+}
