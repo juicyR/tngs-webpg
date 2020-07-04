@@ -1,0 +1,25 @@
+.btn {
+    font-size: 16px;
+    line-height: 42px;
+    display: inline-block;
+    padding: 0 24px;
+    border: solid 1px #EE693F;
+    border-radius: 4px;
+    transition: all 0.3s ease-in;
+}
+.btn:hover {
+    background-color: #EE693F;
+    color: white;
+}
+.btn--white {
+    border-color: white;
+    color: white;
+}
+.btn--white:hover {
+    background-color: white;
+    color: #00974D;
+}
+.btn--solid {
+    background: #EE693F;
+    color: white;
+}
