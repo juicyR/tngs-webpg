@@ -1,0 +1,36 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    background-color: #c2beb2;
+	margin: 0 auto;
+    width: 650px;
+    overflow: hidden;
+}
+.box {
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 31px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.header {
+    background-color: red;
+    overflow: hidden;
+}
+#header {
+    grid-column: 1/4;
+    height: 90px;
+
+}
+.footer {
+    background-color: red;
+    overflow: hidden;
+}
+#footer {
+    grid-column: 1/4;
+    height: 90px;
+}
