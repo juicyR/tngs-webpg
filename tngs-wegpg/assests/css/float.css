@@ -1,0 +1,253 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E5E5E5;
+    /* border: 200px solid grey; */
+}
+
+header {
+    position: relative;
+    text-align: right;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    background-color: #00974D;
+    width: 100%;
+}
+
+.middle-sec {
+    height: 649px;
+    width: 100%;
+    background: url(../img/bg-img-unedited.png) no-repeat;
+    background-size: cover;
+    clip-path: ellipse(90% 67% at 50% 33%);
+    position: absolute;
+}
+    .middle-sec--color {
+        height: 100%;
+        background-color: rgba(0, 151, 77, 0.75);
+    }
+
+.bg-img {
+    position: absolute;
+    mix-blend-mode: soft-light;
+    width: 100%;
+    height: 649px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin-top: 5px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+} 
+
+.top-nav {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+    text-align: right;
+    margin-bottom: 12%;
+    padding-top: 3%;
+}
+
+ul {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+}
+
+.btn1 {
+    margin-left: 6%;
+}
+
+ul>li {
+    display: inline-block;
+}
+
+.main-sec {
+    position: relative;
+    margin: 0;
+    margin-bottom: 300px;
+    margin-top: 490px;
+}
+
+.school-content {
+    float: left;
+    background-color: white;
+    width: 313px;
+    height: 419px;
+    border-radius: 10px;
+    margin-right: 25px;
+    padding: 27px;
+    overflow: auto;
+    text-align: center;
+}
+    .school-content>h3 {
+        margin-top: 22px;
+    }
+
+.main-sec-content {
+    text-align: left;
+    background: url(../img/icons/tick.png) no-repeat;
+    padding-left: 33px;
+}
+
+.btn--solid-main-sec {
+    position: relative;
+    background: #EE693F;
+    color: white;
+    text-align: center;
+    top: 47px;
+    border-radius: 2px;
+    padding: 13px 12px;
+    transition: all 0.3s ease-in;
+}
+    .btn--solid-main-sec:hover {
+        background-color: #E5E5E5;
+        color: #EE693F;
+    }
+
+.middle-txt {
+    color: #383838;
+    margin-bottom: 45px;
+}
+
+.btm-half {
+    overflow: hidden;
+    padding: 0;
+}
+
+.btm-content {
+    background-color: white;
+    width: 527px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-bottom: 26px;
+}
+
+.card-content {
+    margin-right: 13px;
+    margin-left: 300px;
+}
+
+.mid-sec-img {
+    margin: 0;
+    float: left;
+}
+
+.btm--solid-btn {
+    background: transparent;
+    border: 1px solid #EE693F;
+    color: #EE693F;
+    text-align: center;
+    border-radius: 2px;
+    padding: 13px 12px;
+    transition: all 0.3s ease-in;
+}
+    .btm--solid-btn:hover {
+        background-color: #EE693F;
+        color: #ffffff;
+    }
+
+.btn-one,
+.btn-two,
+.btn-three,
+.btn-four {
+    position: relative;
+    left: 20px;
+    padding: 10px 14px;
+}
+.btn-one {
+    top: 28px;
+}
+.btn-two,
+.btn-three {
+    top: 54px;
+}
+.btn-four {
+    top: 74px;
+}
+
+.top-footer {
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: #00974D;
+    width: 100%;
+}
+
+    .border {
+        padding-right: 3%;
+        border-right: 1px solid white;
+    }
+
+    .left-padding {
+        padding-left: 3%;
+    }
+
+.bottom-footer {
+    padding-left: 13%;
+    padding-top: 3%;
+    background-image: url('../img/footer.png');
+    background-size:cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.bottom-footer>div {
+    float: left;
+}
+
+.heads {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+    .sitemap {
+        width: 126px;
+    }
+    .learnings {
+        margin-left: 10%;
+        width: 200px;
+    }
+    .admissions {
+        margin: 0 5%;
+        width: 220px;
+    }
+    .margin {
+        margin-top: 100px;
+    }
+    .margin2 {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+    .margin2>span {
+        margin-left: 16px;
+    }
+
+.end-btn,
+.contact-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px 15px;
+    margin-top: 28px;
+    transition: all 0.3s ease-in;
+}
+.end-btn:hover {
+    background-color: #E5E5E5;
+    color: #00974D;
+    border-color: #E5E5E5;
+}
+.contact-btn {
+    padding: 10px 50px;
+}
