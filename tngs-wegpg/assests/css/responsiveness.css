@@ -1,0 +1,625 @@
+@media (max-width: 1030px) {
+    .hd-links {
+        padding-right: 3em;
+    }
+    .btn--white {
+        margin-right: 3em;
+    }
+    .middle-sec__text {
+        padding: 0px 3em;
+    }
+    .logo {
+        margin-left: 3em;
+    }
+    .main-sec {
+        padding-left: 1.9em;
+    }
+    .school-content {
+        width: 18em;
+    }
+    .btm-content {
+        width: 100%;
+    }
+    .btm-content:nth-child(3),
+    .btm-content:nth-child(5) {
+        margin-left: 0px;
+    }
+    .btm-content > p {
+        font-size: .75rem;
+    }
+    .bottom-footer {
+        padding-left: 4em;
+    }
+    .learnings {
+        margin-left: 5em;
+    }
+}
+
+@media (max-width: 790px) {
+    .header-links {
+        margin-right: 1em;
+    }
+    .btn--white {
+        margin-right: 2em;
+    }
+    .middle-sec__text {
+        padding: 0 1.2em;
+    }
+    .btn--solid {
+        margin-top: 300px;
+        padding: 1em 2em;
+    }
+    .main-sec {
+        padding-left: 1.2em;
+    }
+    .school-content {
+        width: 200px;
+        height: 470px;
+        padding: 1em;
+    }
+    .btm-content {
+        width: 25em;
+        margin-left: 0;
+        margin-right: 0;
+        height: 285px;
+    }
+    .margin5:nth-child(1) {
+        float: none;
+    }
+    .margin5 {
+        margin-left: 26px;
+    }
+    .btm-content > img {
+        object-fit: cover;
+        width: 150px;
+        height: 100%;
+    }
+    .btm-content > h4 {
+        margin-left: 9.5em;
+    }
+    .btm-content > p {
+        margin-left: 12.4em;
+    }
+    .btn-one {
+        margin-top: 8px;
+        margin-left: 12.4em;
+    }
+    .card-content {
+        margin-bottom: 0px;
+    }
+    .btn-two{
+        margin-top: 16px;
+        margin-left: 12.4em;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 11em;
+    }
+    .btn-three {
+        margin-top: 16px;
+        margin-left: 12.4em;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 150px;
+    }
+    .btn-four {
+        margin-top: 16px;
+        margin-left: 12.4em;
+        width: 160px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .btm-content:nth-child(2),
+    .btm-content:nth-child(4) {
+        margin-left: 20px;
+    }
+    .btm-content:nth-child(2) > h4 {
+        margin-top: 10px;
+    }
+    .bottom-footer {
+        padding-left: 6.5em;
+    }
+    .learnings {
+        margin-left: 3em;
+    }
+    .admissions {
+        margin-left: 3em;
+        margin-bottom: 2em;
+    }
+    .contact {
+        margin-left: 3em;
+    }
+    .btm-content:nth-child(3),
+    .btm-content:nth-child(5) {
+        margin-left: 24px;
+    }
+    .btm-content > p {
+        margin-left: 14.4em;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-sec {
+        padding-left: 0;
+    }
+    .hd-links {
+        padding-right: 16px;
+    }
+    .links1 {
+        position: absolute;
+        left: 7px;
+    }
+    .logo1 {
+        position: relative;
+        cursor: pointer;
+    }
+    .nav-toggle {
+        display: none;
+    }
+    .nav-toggle:checked ~ .bd-links {
+        /* display: block; */
+        transform: scale(1, 1);
+    }
+    .nav-toggle-label {
+        position: absolute;
+        z-index: 99999;
+        left: 90%;
+        top: 32px;
+    }
+    .nav-toggle-label span,
+    .nav-toggle-label::before,
+    .nav-toggle-label::after {
+        display: block;
+        background: #ffffff;
+        height: 4px;
+        width: 24px;
+        border-radius: 3px;
+        position: relative;
+    }
+    .nav-toggle-label::before,
+    .nav-toggle-label::after {
+        content: '';
+        position: absolute;
+    }
+    .nav-toggle-label::before {
+        bottom: 7px;
+    }
+    .nav-toggle-label::after {
+        top: 7px;
+    }
+    .bd-links {
+        position: absolute;
+        text-align: left;
+        padding-left: 24px;
+        padding-right: 24px;
+        background-color: #00974D;
+        z-index: 9999;
+        width: 88%;
+        /* display: none; */
+        height: 100vh;
+        transform: scale(1, 0);
+        transform-origin: top;
+        transition: 400ms ease-in-out;
+    }
+    .logo {
+        float: none;
+        width: 47px;
+        height: 59px;
+        margin: 15px 0 0 0;
+    }
+    .top-nav {
+        margin-bottom: 0;
+        text-align: left;
+        font-size: 16px;
+    }
+    .top-nav > li {
+        display: block;
+        margin: 0;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #ffffff;
+        margin-bottom: 16px;
+        padding-right: 0;
+        width: 100%;
+        opacity: 0;
+        transition: 150ms ease-in-out;
+    }
+
+    .top-nav > li > a {
+        width: 100%;
+    }
+    .btn1 {
+        display: none;
+    }
+    .middle-sec__text {
+        padding-top: 98px;
+        margin: 0;
+    }
+    .nav-toggle:checked ~ .bd-links > .top-nav > li {
+        opacity: 1;
+        transition: 250ms ease-in-out 250ms;
+    }
+    .middle-sec {
+        height: 294px;
+        background: url(../img/bg-img-unedited-mobile.png) no-repeat;
+        width: 100%;
+        overflow: visible;
+        background-size: 100% 100%;
+    }
+    .middle-sec__text>h2 {
+        font-size: 24px;
+    }
+    .btn--solid {
+        margin-top: 265px;
+        /* position: absolute; */
+        /* z-index: 99999; */
+    }
+    .school-content:nth-child(2),
+    .school-content:nth-child(3) {
+        display: none;
+    }
+    .school-content:nth-child(1) {
+        float: none;
+        margin: 0 auto;
+    }
+    .main-sec__links {
+        margin-top: 47px;
+        display: block;
+        text-align: center;
+    }
+    .main-sec__link1,
+    .main-sec__link2,
+    .main-sec__link3 {
+        /* font-family: paytone one; */
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: black;
+    }
+    .main-sec__link1 + .main-sec__link2,
+    .main-sec__link2 + .main-sec__link3 {
+        margin-left: 8px;
+    }
+    .main-sec__link1 {
+        color: #00974D;
+        border-bottom: 2px solid #00974D;
+    }
+    .main-sec {
+        margin: 0 auto;
+        margin-top: 34px;
+        margin-bottom: 32px;
+        max-width: 385px;
+    }
+    .school-content {
+        width: 320px;
+        height: 451px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .btm-half {
+        max-width: 385px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+    .middle-txt {
+        margin-bottom: 32px;
+    }
+    .btm-content {
+        margin: 0;
+        margin-bottom: 16px;
+        width: 385px;
+        height: 239px;
+    }
+    .btm-content > img {
+        width: 117px;
+        height: 100%;
+        object-fit: cover;
+    }
+    .btm-content h4 {
+        margin: 0;
+        margin-left: 130px;
+        margin-top: 20px;
+        margin-bottom: 11px;
+    }
+    .card-content {
+        margin: 0;
+        margin-left: 130px;
+    }
+    .btm--solid-btn {
+        margin-left: 9.4em;
+    }
+    .btn-one {
+        margin-top: 18px;
+    }
+    .btn-two{
+        margin-top: 16px;
+    }
+    .btn-three {
+        margin-top: 16px;
+    }
+    .btn-four {
+        margin-top: 16px;
+    }
+    .top-footer > span {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .sitemap,
+    .learnings {
+        display: none;
+    }
+    .bottom-footer {
+        padding-top: 24px;
+    }
+    .admissions {
+        margin-left: 19px;
+        padding-bottom: 32px;
+        margin-bottom: 19px;
+        border-bottom: 1px solid #FFFFFF;
+        width: 370px;
+    }
+    .contact {
+        margin-left: 19px;
+        padding: 0;
+    }
+    .end-btn {
+        padding: .8em 2.3em;
+        margin-top: 27px;
+    }
+    .margin2 span + span {
+        margin-left: .7em;
+    }
+    .apply-btn {
+        padding: .8em 1.85em;
+    }
+    .btn-margin {
+        margin-top: 27px;
+        margin-bottom: 32px;
+    }
+    .btm-content:nth-child(2),
+    .btm-content:nth-child(3),
+    .btm-content:nth-child(4),
+    .btm-content:nth-child(5) {
+        margin-left: .1em;
+    }
+    .bottom-footer {
+        padding-left: 0;
+    }
+    .btm-content > p {
+        margin-left: 11em;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 500px) {
+    .nav-toggle {
+        display: none;
+    }
+    .links1 {
+        display: none;
+    }
+    .main-sec__links {
+        display: none;
+    }
+}
+
+@media (max-width: 380px) {
+    .main-sec {
+        padding-left: 0;
+    }
+    .school-content {
+        width: 285px;
+    }
+    .btm-content {
+        width: 25em;
+        margin-left: .9em;
+        height: 19em;
+    }
+    .btn-two{
+        box-sizing: border-box;
+        margin-top: 2.5em;
+        width: 13em;
+        margin-bottom: 0;
+    }
+    .btn-three {
+        box-sizing: border-box;
+        width: 12em;
+        margin-top: 2.8em;
+    }
+    .btn-four {
+        box-sizing: border-box;
+        width: 14em;
+        margin-top: 4em;
+    }
+    .admissions {
+        width: 336px;
+    }
+    .btm-content:nth-child(2),
+    .btm-content:nth-child(3),
+    .btm-content:nth-child(4),
+    .btm-content:nth-child(5) {
+        margin-left: .85em;
+    }
+    .bottom-footer {
+        padding-left: 0;
+    }
+    .btm-content > p {
+        margin-left: 11em;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-sec {
+        padding-left: 0;
+    }
+    .school-content {
+        width: 270px;
+    }
+    .btm-content {
+        width: 24em;
+        margin-left: .9em;
+        height: 19em;
+    }
+    .btn-two{
+        box-sizing: border-box;
+        margin-top: 2.5em;
+        width: 13em;
+        margin-bottom: 0;
+    }
+    .btn-three {
+        box-sizing: border-box;
+        width: 12em;
+        margin-top: 2.8em;
+    }
+    .btn-four {
+        box-sizing: border-box;
+        width: 14em;
+        margin-top: 4em;
+    }
+    .admissions {
+        width: 320px;
+    }
+    .btm-content:nth-child(2),
+    .btm-content:nth-child(3),
+    .btm-content:nth-child(4),
+    .btm-content:nth-child(5) {
+        margin-left: .85em;
+    }
+    .bottom-footer {
+        padding-left: 0;
+    }
+    .btm-content > p {
+        margin-left: 11em;
+    }
+}
+
+@media (max-width: 350px) {
+    /* .main-sec {
+        margin-top: 34px;
+    } */
+    .main-sec {
+        padding-left: 0;
+    }
+    .school-content {
+        width: 240px;
+    }
+    .admissions {
+        width: 285px;
+    }
+    .btm-content {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .btm-content>h4 {
+        margin-top: 7px;
+        margin-bottom: 1px;
+    }
+    .text-size {
+        font-size: 15px;
+    }
+    .text-size ~ p {
+        font-size: 14px;
+    }
+    .btn-one {
+        box-sizing: border-box;
+        margin-top: 1.5em;
+        width: 140px;
+        padding: .5em .5em;
+    }
+    .btn-two{
+        box-sizing: border-box;
+        width: 151px;
+        padding: .5em .3em;
+        font-size: .843rem;
+    }
+    .btn-three {
+        box-sizing: border-box;
+        width: 160px;
+    }
+    .btn-four {
+        box-sizing: border-box;
+        width: 160px;
+        padding-left: .3em;
+        padding-right: .3em;
+        font-size: .82rem;
+        margin-top: 2em;
+        margin-left: 10em;
+    }
+    .btm-content:nth-child(2),
+    .btm-content:nth-child(3),
+    .btm-content:nth-child(4),
+    .btm-content:nth-child(5) {
+        margin-left: .74em;
+    }
+    .btm-content:nth-child(2) > p {
+        font-size: 12px;
+        margin-left: 11em;
+    }
+    .bottom-footer {
+        padding-left: 0;
+    }
+    .btm-content > p {
+        margin-left: 11em;
+        margin-right: .5em;
+    }
+    .btm-content > h4 {
+        margin-bottom: 1em;
+    }
+}
+
+@media (max-width: 280px) {
+    .header-links {
+        margin-left: 25px;
+        margin-right: 5px;
+    }
+    .main-sec {
+        padding-left: 0;
+    }
+    .middle-sec__text {
+        padding-top: 98px;
+    }
+    .school-content {
+        width: 200px;
+        padding: 1.9em;
+    }
+    .btn--solid-main-sec {
+        width: 170px;
+    }
+    .main-sec__links>a {
+        font-size: .8rem;
+    }
+    .btm-content {
+        width: 255px;
+        height: 310px;
+    }
+    .btm-content {
+        padding-right: 6px;
+    }
+    .btm-content > h4 {
+        font-size: 15px;
+    }
+    .btn-one {
+        box-sizing: border-box;
+        width: 120px;
+    }
+    .btn-two{
+        box-sizing: border-box;
+        width: 120px;
+    }
+    .btn-three {
+        box-sizing: border-box;
+        width: 120px;
+        margin-top: 5px;
+    }
+    .btn-four {
+        box-sizing: border-box;
+        width: 120px;
+        margin-left: 10em;
+    }
+    .admissions {
+        width: 245px;
+    }
+    .nav-toggle-label {
+        left: 83%;
+    }
+}
