@@ -1,0 +1,261 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E5E5E5;
+    /* border: 200px solid grey; */
+}
+
+header {
+    position: relative;
+    text-align: right;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    background-color: #00974D;
+    width: 100%;
+}
+
+.middle-sec {
+    height: 649px;
+    width: 100%;
+    background: url(../img/bg-img-unedited.png) no-repeat;
+    background-size: cover;
+    clip-path: ellipse(90% 67% at 50% 33%);
+    position: absolute;
+    overflow: visible;
+}
+    .middle-sec--color {
+        height: 100%;
+        background-color: rgba(0, 151, 77, 0.75);
+    }
+    .middle-sec__text {
+        text-align: center;
+        margin: 0;
+    }
+    .middle-sec__text>h2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .bd-links {
+        text-align: center;
+    }
+
+.bg-img {
+    position: absolute;
+    mix-blend-mode: soft-light;
+    width: 100%;
+    height: 649px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    margin-top: 5px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.top-nav {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+    text-align: right;
+    margin-bottom: 12%;
+    padding-top: 3%;
+}
+
+ul {
+    padding: 0%;
+    margin: 0%;
+    color: #ffffff;
+}
+
+.btn1 {
+    margin-left: 2.8em;
+}
+
+ul>li {
+    display: inline-block;
+}
+
+.main-sec {
+    position: relative;
+    margin-bottom: 88px;
+    margin-top: 157px;
+}
+
+.school-content {
+    float: left;
+    background-color: white;
+    width: 289px;
+    height: 419px;
+    border-radius: 10px;
+    margin-right: 25px;
+    padding: 27px;
+    overflow: hidden;
+    text-align: center;
+}
+    .school-content:last-child {
+        float: none;
+    }
+    .school-content>h3 {
+        margin-top: 22px;
+    }
+
+.main-sec-content {
+    text-align: left;
+    background: url(../img/icons/tick.png) no-repeat;
+    padding-left: 33px;
+}
+
+.btn--solid-main-sec {
+    display: block;
+    margin: 0 auto;
+    margin-top: 47px;
+    background: #EE693F;
+    color: white;
+    width: 186px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 13px 0px;
+    transition: all 0.3s ease-in;
+}
+    .btn--solid-main-sec:hover {
+        background-color: #E5E5E5;
+        color: #EE693F;
+    }
+
+.middle-txt {
+    color: #383838;
+    margin-bottom: 45px;
+}
+
+.btm-half {
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 170px;
+}
+
+.btm-content {
+    background-color: white;
+    width: 527px;
+    float: left;
+    margin-bottom: 26px;
+}
+.margin5 {
+    margin-left: 26px;
+}
+
+.card-content {
+    margin-right: 13px;
+    margin-left: 300px;
+}
+
+.mid-sec-img {
+    margin: 0;
+    float: left;
+}
+
+.btm--solid-btn {
+    border: 1px solid #EE693F;
+    display: block;
+    text-align: center;
+    margin-left: 300px;
+    color: #EE693F;
+    border-radius: 2px;
+    padding: 13px 0px;
+    transition: all 0.3s ease-in;
+}
+    .btm--solid-btn:hover {
+        background-color: #EE693F;
+        color: #ffffff;
+    }
+
+.btn-one,
+.btn-two,
+.btn-three,
+.btn-four {
+    padding: 10px 14px;
+}
+.btn-one {
+    width: 100px;
+    margin-top: 28px;
+}
+.btn-two{
+    width: 170px;
+    margin-top: 54px;
+}
+.btn-three {
+    width: 150px;
+    margin-top: 54px;
+}
+.btn-four {
+    width: 180px;
+    margin-top: 74px;
+}
+
+.top-footer {
+    font-size: 18px;
+    text-align: center;
+    background-color: #00974D;
+    width: 100%;
+}
+    .border + span {
+        margin-right: 3%;
+        padding-right: 3%;
+        padding-left: 3%;
+        border-right: 2px solid #A1CEB8;
+    }
+    .border {
+        padding-right: 3%;
+        border-right: 2px solid #A1CEB8;
+    }
+
+.bottom-footer-bg {
+    background-image: url('../img/footer.png');
+}
+.bottom-footer {
+    padding-top: 43px;
+    padding-bottom: 120px;
+    background-size:cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.bottom-footer>div {
+    float: left;
+}
+
+.heads {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+    .sitemap {
+        width: 126px;
+    }
+    .learnings {
+        margin-left: 10%;
+        width: 200px;
+    }
+    .admissions {
+        margin: 0 5%;
+        width: 220px;
+    }
+    .margin {
+        margin-top: 100px;
+    }
+    .margin2 {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+    .margin2 span + span {
+        margin-left: 16px;
+    }
+
+.btn-margin {
+    margin-top: 27px;
+}
