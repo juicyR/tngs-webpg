@@ -1,0 +1,256 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E5E5E5;
+    /* border: 200px solid grey; */
+}
+
+header {
+    text-align: right;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    background-color: #00974D;
+}
+
+.middle-sec {
+    height: 649px;
+    width: 100%;
+    background: url(../img/bg-img-unedited.png) no-repeat;
+    background-size: cover;
+    clip-path: ellipse(90% 67% at 50% 33%);
+    position: absolute;
+}
+    .middle-sec--color {
+        height: 100%;
+        background-color: rgba(0, 151, 77, 0.75);
+    }
+
+.logo {
+    margin-top: 5px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.top-nav {
+    text-align: right;
+    margin-bottom: 12%;
+    padding-top: 4%;
+    list-style-type: none;
+}
+    .top-nav > li > a {
+        font-weight: 600;
+    }
+
+ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+.btn1 {
+    margin-left: 2.8em;
+}
+
+ul>li {
+    display: inline-block;
+}
+
+.main-sec {
+    position: relative;
+    margin-bottom: 88px;
+    margin-top: 157px;
+}
+
+.school-content {
+    float: left;
+    background-color: white;
+    width: calc(33.333% - 17px);
+    height: auto;
+    border-radius: 10px;
+    padding: 27px;
+    overflow: hidden;
+    text-align: center;
+}
+    .school-content:nth-child(2),
+    .school-content:last-child {
+        margin-left: 25px;
+    }
+    .school-content>h3 {
+        margin-top: 22px;
+    }
+    .school-content__ages-groups {
+        font-size: 16px;
+        font-weight: 500;
+        color: #6A6A6A;
+    }
+
+.main-sec-content {
+    text-align: left;
+    background: url(../img/icons/tick.png) no-repeat;
+    padding-left: 33px;
+}
+
+.btn--solid-main-sec {
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 47px;
+    background: #EE693F;
+    color: white;
+    width: 186px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 13px 0px;
+    transition: all 0.3s ease-in;
+}
+    .btn--solid-main-sec:hover {
+        background-color: #E5E5E5;
+        color: #EE693F;
+    }
+
+.middle-txt {
+    color: #383838;
+    margin-bottom: 45px;
+}
+
+.btm-half {
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 170px;
+}
+
+.btm-content {
+    background-color: white;
+    width: 527px;
+    float: left;
+    margin-bottom: 26px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.margin5 {
+    margin-left: 26px;
+}
+
+.card-content {
+    margin-right: 13px;
+    margin-left: 300px;
+    font-weight: 500;
+}
+
+.mid-sec-img {
+    margin: 0;
+    float: left;
+}
+
+.btm--solid-btn {
+    border: 1px solid #EE693F;
+    display: block;
+    text-align: center;
+    margin-left: 300px;
+    color: #EE693F;
+    border-radius: 2px;
+    padding: 13px 0px;
+    transition: all 0.3s ease-in;
+}
+    .btm--solid-btn:hover {
+        background-color: #EE693F;
+        color: #ffffff;
+    }
+
+.btn-one,
+.btn-two,
+.btn-three,
+.btn-four {
+    padding: 10px 14px;
+}
+.btn-one {
+    width: 142px;
+    margin-top: 28px;
+}
+.btn-two{
+    width: 184px;
+    margin-top: 54px;
+}
+.btn-three {
+    width: 162px;
+    margin-top: 54px;
+}
+.btn-four {
+    width: 213px;
+    margin-top: 74px;
+}
+
+.top-footer {
+    font-size: 18px;
+    text-align: center;
+    background-color: #00974D;
+    padding-top: 39px;
+    height: 98px;
+    width: 100%;
+}
+    .top-footer__text {
+        font-size: 18px;
+        font-family: paytone one;
+        color: white;
+    }
+    .top-footer__text > span {
+        padding: .4em 0;
+    }
+    .top-footer__text > span:nth-child(2) {
+        margin-right: 3%;
+        padding-right: 3%;
+        padding-left: 3%;
+        border-right: 2px solid #A1CEB8;
+    }
+    .top-footer__text > span:first-child {
+        padding-right: 3%;
+        border-right: 2px solid #A1CEB8;
+    }
+
+.bottom-footer-bg {
+    background-image: url('../img/footer.png');
+}
+.bottom-footer {
+    padding-top: 43px;
+    padding-bottom: 120px;
+    background-size:cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.bottom-footer>div {
+    float: left;
+}
+
+.heads {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+    .col {
+        width: 245px;
+        margin-right: 25px;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .margin {
+        margin-top: 100px;
+    }
+    .margin2 {
+        margin-top: 32px;
+        margin-left: 0;
+    }
+    .margin2 span + span {
+        margin-left: 16px;
+    }
+
+.btn-margin {
+    margin-top: 27px;
+}
