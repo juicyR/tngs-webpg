@@ -8,6 +8,9 @@
     .main-sec__links {
         display: none;
     }
+    .middle-sec__text > h2 {
+        line-height: 34px;
+    }
 }
 @media (max-width: 650px) {
     .link1 {
@@ -326,9 +329,6 @@
 }
 @media (min-width: 650px) {
     /*Tablet Size Nav :)*/
-    .link1 {
-        margin-left: 5%;
-    }
     .links1 {
         position: absolute;
         display: block;
@@ -408,7 +408,7 @@
         display: none;
     }
     .middle-sec__text {
-        padding-top: 98px;
+        padding-top: 150px;
     }
     .nav-toggle:checked ~ .bd-links > .top-nav > li {
         opacity: 1;
@@ -616,7 +616,6 @@
             float: none;
         }
     .btn--solid {
-        margin-top: 360px;
         font-size: 16px;
         font-weight: 600;
     }
