@@ -1,0 +1,272 @@
+/*Box-Sizing*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E5E5E5;
+}
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+/* .nav-toggle,
+.logo1 {
+    display: none;
+} */
+/*Header*/
+header {
+    padding-top: 13px;
+    padding-bottom: 12px;
+    background-color: #00974D;
+    width: 100%;
+}
+.hd-links {
+    display: grid;
+    justify-items: end;
+}
+.middle-sec {
+    height: 649px;
+    width: 100%;
+    background: url(../img/bg-img-unedited.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    clip-path: ellipse(90% 67% at 50% 33%);
+    position: absolute;
+}
+    .middle-sec--color {
+        height: 100%;
+        background-color: rgba(0, 151, 77, 0.75);
+    }
+/*Nav And Logo*/
+.bd-links {
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.logo_link {
+    height: 87px;
+}
+.logo {
+    margin-top: 5px;
+}
+ul>li {
+    margin-left: 0;
+}
+.top-nav {
+    margin: 0;
+    margin-top: 32px;
+    margin-bottom: 138px;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    padding-left: 23.35%;
+}
+.top-nav > li {
+    font-weight: 600;
+    font-size: 14px;
+    align-self: center;
+    display: inline-block;
+}
+.top-nav  > li + li {
+    margin-left: 32px;
+}
+.btn1 {
+    margin-left: 46px;
+    font-size: 14px;
+}
+.middle-sec__text > h2 {
+    line-height: 45px;
+}
+.btn--solid {
+    margin-top: 314px;
+}
+/*Mobile navigation for schools*/
+.main-sec__links {
+    display: none;
+}
+/*Different sections of the school*/
+.main-sec {
+    display: grid;
+    grid-template-columns: calc(33.333% - 17px) calc(33.333% - 17px) calc(33.333% - 17px);
+    grid-gap: 25px;
+    position: relative;
+    margin-bottom: 88px;
+    margin-top: 157px;
+}
+.school-content {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 27px;
+    overflow: hidden;
+    text-align: center;
+}
+    .school-content:nth-child(2),
+    .school-content:last-child {
+        margin-left: 0;
+    }
+    .school-content>h3 {
+        margin-top: 22px;
+    }
+    .school-content__ages-groups {
+        font-size: 16px;
+        font-weight: 500;
+        color: #6A6A6A;
+    }
+    .main-sec-content {
+        text-align: left;
+        background: url(../img/icons/tick.png) no-repeat;
+        padding-left: 33px;
+    }
+.btn--solid-main-sec {
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 47px;
+    background: #EE693F;
+    color: white;
+    width: 186px;
+    text-align: center;
+    border-radius: 2px;
+    padding: 13px 0px;
+    transition: all 0.3s ease-in;
+}
+    .btn--solid-main-sec:hover {
+        background-color: #E5E5E5;
+        color: #EE693F;
+    }
+/*Part next to footer*/
+.btm-half {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.btm-half > h2 {
+    grid-column: 1/2;
+    color: #383838;
+    margin-bottom: 42px;
+}
+.btm-half__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    margin-bottom: 170px;
+}
+.btm-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.btm-half__text {
+    padding-left: 18px;
+    padding-right: 13px;
+}
+.btm-half__text > h4 {
+    margin-left: 0;
+    margin-right: 0;
+}
+.btm--solid-btn {
+    border: 1px solid #EE693F;
+    display: block;
+    text-align: center;
+    color: #EE693F;
+    border-radius: 2px;
+    padding: 13px 0px;
+    transition: all 0.3s ease-in;
+}
+    .btm--solid-btn:hover {
+        background-color: #EE693F;
+        color: #ffffff;
+    }
+    .btn-one,
+    .btn-two,
+    .btn-three,
+    .btn-four {
+        padding: 10px 14px;
+    }
+    .btn-one {
+        width: 142px;
+        margin-top: 28px;
+    }
+    .btn-two{
+        width: 184px;
+        margin-top: 50px;
+    }
+    .btn-three {
+        width: 162px;
+        margin-top: 50px;
+    }
+    .btn-four {
+        width: 213px;
+        margin-top: 74px;
+    }
+
+/*FOOTER*/
+/*The top part of the footer*/
+.top-footer {
+    background: #00974D;
+    padding: 25px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: paytone one;
+}
+.top-footer__text {
+    display: flex;
+    justify-content: center;
+}
+.top-footer__text > span + span {
+    padding: 6px 0;
+    padding-left: 32px;
+    margin-left: 32px;
+    border-left: 2px solid #A1CEB8;
+}
+.top-footer__text > span {
+    padding: 6px 0;
+}
+/*The bottom part of the footer*/
+.bottom-footer-bg {
+    background-image: url('../img/footer.png');
+}
+.bottom-footer {
+    padding-top: 43px;
+    padding-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.col {
+    width: 278px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.heads {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 25px;
+}
+.lists {
+    margin: 0;
+    padding: 0;
+}
+.lists > li {
+    margin-bottom: 12px;
+    color: white;
+}
+.btn-margin {
+    margin-top: 27px;
+}
+.margin2 {
+    margin-top: 32px;
+}
+.margin2 > span + span {
+    margin-left: 17px;
+    height: 36px; width: 36px;
+}
